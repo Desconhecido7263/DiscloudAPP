@@ -1,6 +1,7 @@
 {
   "version": "1.2",
   "update": true,
+  "upgrade": "1.1",
   "novidade": "Melhorias internas no sistema sem alterar a versão.",
   "url": "https://init-discloud.vercel.app/"
 }
