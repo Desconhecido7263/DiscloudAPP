@@ -1,5 +1,6 @@
 {
-  "url": "https://github.com/SoatrsOfc/DiscloudAPP",
   "version": "1.2",
-  "novidade": "Melhorias no sistema do app\nPronto para uso!"
+  "update": true,
+  "novidade": "Melhorias internas no sistema sem alterar a versão.",
+  "url": "https://init-discloud.vercel.app/"
 }
