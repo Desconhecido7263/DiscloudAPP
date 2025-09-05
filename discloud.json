@@ -1,6 +1,6 @@
 {
-  "maintenance": true,
-  "version": "1.6",
+  "maintenance": false,
+  "version": "1.7",
   "maintenance_msg": "⚠️ O aplicativo está em manutenção.\nPor favor, volte mais tarde.",
   "novidade": "🚀 Melhorias de desempenho\n📁 Correções de bugs\n🌟 Novo sistema de atualização automática",
   "url": "https://init-discloud.vercel.app/Discloud.apk"
