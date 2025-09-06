@@ -1,4 +1,5 @@
 {
+  "maintenance": true,
   "version": "1.7",
   "maintenance_msg": "⚠️ O aplicativo está em manutenção.\nPor favor, volte mais tarde.",
   "novidade": "🚀 Melhorias de desempenho\n🌟 Novo sistema de Sugestões",
