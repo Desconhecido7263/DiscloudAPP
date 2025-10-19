@@ -1,7 +1,7 @@
 {
-  "maintenance": true,
+  "maintenance": false,
   "offline": false,
-  "version": "1.9",
+  "version": "1.10",
   "last_update": "19 de outubro de 2025",
   "maintenance_msg": "⚠️ O aplicativo está em manutenção.\nPor favor, volte mais tarde.",
   "novidade": "🚀 Melhorias de Desempenho\n🌟 Novo Sistema de Sugestões\n💥 Novo Sistema de Servidor Discloud Mobile",
