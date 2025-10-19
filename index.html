@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">  
+<head>  
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width,initial-scale=1" />  
+  <title>Discloud APK — Download atualizado para Android</title>  
+  <meta name="description" content="Baixe o instalador Discloud.apk diretamente." />  
+  <meta name="google-site-verification" content="291L5-EPO0kvO_qCy6IfIC8zTWQR12vn9mDLSNpA5uw" />  
+
+  <script type="application/ld+json">  
+  {  
+    "@context": "https://schema.org",  
+    "@type": "MobileApplication",  
+    "name": "Discloud",  
+    "operatingSystem": "ANDROID",  
+    "applicationCategory": "UtilityApplication",  
+    "downloadUrl": "https://init-discloud.vercel.app/Discloud.apk",  
+    "softwareVersion": "1.8.0",  
+    "offers": {  
+      "@type": "Offer",  
+      "price": "0",  
+      "priceCurrency": "BRL"  
+    }  
+  }  
+  </script>  
+
+  <style>  
+    :root {  
+      --bg: #0d1117;  
+      --card: #1f2733;  
+      --accent: #0ea5e9;  
+      --text: #f0f6fc;  
+      --muted: #a0aec0;  
+      --shadow: rgba(0,0,0,0.5);  
+    }  
+
+    * { box-sizing: border-box; margin:0; padding:0; }  
+
+    body {  
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;  
+      background: var(--bg);  
+      color: var(--text);  
+      display: flex;  
+      justify-content: center;  
+      align-items: center;  
+      min-height: 100vh;  
+      padding: 20px;  
+    }  
+
+    #particles-js {  
+      position: fixed;  
+      top: 0;  
+      left: 0;  
+      width: 100%;  
+      height: 100%;  
+      z-index: 0;  
+      pointer-events: none;  
+    }  
+
+    .card {  
+      position: relative;  
+      z-index: 1;  
+      background: var(--card);  
+      border-radius: 20px;  
+      padding: 32px;  
+      width: 100%;  
+      max-width: 500px;  
+      box-shadow: 0 12px 30px var(--shadow);  
+      border: 1px solid rgba(255,255,255,0.08);  
+      text-align: center;  
+    }  
+
+    h1 {  
+      font-size: 26px;  
+      margin-bottom: 12px;  
+      color: var(--accent);  
+    }  
+
+    p.lead {  
+      font-size: 16px;  
+      color: var(--muted);  
+      margin-bottom: 20px;  
+      line-height: 1.5;  
+    }  
+
+    .meta {  
+      display: flex;  
+      flex-direction: column;  
+      gap: 6px;  
+      margin-bottom: 20px;  
+      font-size: 14px;  
+      color: var(--muted);  
+      text-align: left;  
+    }  
+
+    .meta div span {  
+      font-weight: bold;  
+      color: var(--text);  
+    }  
+
+    .btn {  
+      display: inline-block;  
+      width: 100%;  
+      padding: 16px 0;  
+      border-radius: 12px;  
+      background: var(--accent);  
+      color: #fff;  
+      font-weight: 700;  
+      font-size: 16px;  
+      text-decoration: none;  
+      transition: 0.3s;  
+      margin-bottom: 20px;  
+    }  
+
+    .btn:hover { background: #0284c7; }  
+
+    #status span.online { color: #22c55e; }  
+    #status span.offline { color: #ef4444; }  
+    #status span.maintenance { color: #f59e0b; }  
+
+    .novidades {  
+      background: rgba(255,255,255,0.05);  
+      padding: 10px 15px;  
+      border-radius: 10px;  
+      font-size: 14px;  
+      color: var(--muted);  
+      margin-bottom: 20px;  
+      text-align: left;  
+      white-space: pre-line;  
+    }  
+
+    footer { font-size: 13px; color: var(--muted); }  
+    footer a { color: var(--accent); text-decoration: none; }  
+
+    .floating-btn {  
+      position: fixed;  
+      bottom: 25px;  
+      left: 25px;  
+      width: 60px;  
+      height: 60px;  
+      background-color: var(--accent);  
+      color: #fff;  
+      border-radius: 50%;  
+      text-align: center;  
+      line-height: 60px;  
+      font-size: 26px;  
+      text-decoration: none;  
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);  
+      z-index: 100;  
+      transition: 0.3s;  
+    }  
+    .floating-btn:hover { background-color: #0284c7; transform: scale(1.1); }  
+  </style>  
+</head>  
+
+<body>  
+  <div id="particles-js"></div>  
+  <div class="card">  
+    <h1>Discloud — APK Android</h1>  
+    <p class="lead">Baixe o arquivo <strong>Discloud.apk</strong> diretamente pelo link abaixo. Compatível com todas as versões do Android.</p>  
+
+    <div class="meta">  
+      <div>Status: <span id="status"><span>verificando...</span></span></div>  
+      <div>Versão: <span id="appVersion">—</span></div>  
+      <div>Última atualização: <span id="lastUpdate">—</span></div>  
+      <div>Tamanho: <span id="filesize">—</span></div>  
+      <div>Pacote: <span>com.discloud</span></div>  
+    </div>  
+
+    <div class="novidades" id="novidades">Carregando novidades...</div>  
+
+    <a id="downloadBtn" class="btn" href="/Discloud.apk" download>⤓ Baixar Discloud.apk</a>  
+    <footer>Link direto: <a id="directLink" href="/Discloud.apk">/Discloud.apk</a></footer>  
+  </div>  
+
+  <a href="https://github.com/Desconhecido7263/DiscloudAPP/issues" class="floating-btn" title="Suporte / Relatar Problema">⚙️</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>  
+  <script>  
+  const apkPath = '/Discloud.apk';  
+  const jsonURL = 'https://raw.githubusercontent.com/SoatrsOfc/DiscloudAPP/main/discloud.json';  
+  const statusEl = document.getElementById('status');  
+  const sizeEl = document.getElementById('filesize');  
+  const versionEl = document.getElementById('appVersion');  
+  const lastUpdateEl = document.getElementById('lastUpdate');  
+  const novidadesEl = document.getElementById('novidades');  
+  const downloadBtn = document.getElementById('downloadBtn');  
+
+  function formatBytes(bytes) {  
+    if (!bytes) return '0 B';  
+    const k = 1024;  
+    const sizes = ['B','KB','MB','GB'];  
+    const i = Math.floor(Math.log(bytes) / Math.log(k));  
+    return (bytes / Math.pow(k, i)).toFixed(1) + ' ' + sizes[i];  
+  }  
+
+  async function loadServerInfo() {  
+    try {
+      const resp = await fetch(jsonURL + '?_=' + Date.now());  
+      if (!resp.ok) throw new Error();  
+      const data = await resp.json();  
+
+      versionEl.textContent = data.version || '—';  
+      novidadesEl.textContent = data.novidade || '—';  
+      lastUpdateEl.textContent = data.last_update || '—';  
+
+      if (data.maintenance) {  
+        statusEl.innerHTML = '<span class="maintenance">🟠 Em manutenção</span>';  
+        downloadBtn.textContent = '⚠️ Em manutenção';  
+        downloadBtn.style.background = '#f59e0b';  
+        downloadBtn.style.pointerEvents = 'none';
+        downloadBtn.style.cursor = 'not-allowed';
+        downloadBtn.removeAttribute('href');
+        downloadBtn.removeAttribute('download');
+    } else if (data.offline) {  
+        statusEl.innerHTML = '<span class="offline">🔴 Offline</span>';  
+        downloadBtn.textContent = '🔴 Servidor offline';  
+        downloadBtn.style.background = '#ef4444';  
+        downloadBtn.style.pointerEvents = 'none';
+        downloadBtn.style.cursor = 'not-allowed';
+        downloadBtn.removeAttribute('href');
+        downloadBtn.removeAttribute('download');
+    } else {  
+        statusEl.innerHTML = '<span class="online">🟢 Online</span>';  
+        downloadBtn.textContent = '⤓ Baixar Discloud.apk';  
+        downloadBtn.style.background = 'var(--accent)';  
+        downloadBtn.href = data.url || apkPath;  
+      }  
+    } catch (e) {  
+      statusEl.innerHTML = '<span class="offline">❌ Falha ao verificar</span>';  
+      novidadesEl.textContent = 'Não foi possível carregar as informações.';  
+    }  
+  }  
+
+  async function probeApk() {  
+    try {  
+      const resp = await fetch(apkPath, { method: 'HEAD' });  
+      if (resp.ok) {  
+        const size = resp.headers.get('Content-Length');  
+        sizeEl.textContent = size ? formatBytes(parseInt(size)) : '—';  
+      } else {  
+        sizeEl.textContent = '—';  
+      }  
+    } catch {  
+      sizeEl.textContent = '—';  
+    }  
+  }  
+
+  particlesJS('particles-js',{  
+    particles:{ number:{ value:90 }, color:{ value:"#0ea5e9" }, shape:{ type:"circle" }, opacity:{ value:0.4 }, size:{ value:3 },  
+    line_linked:{ enable:true,distance:200,color:"#ffffff",opacity:0.5,width:1 }, move:{ enable:true,speed:3 } },  
+    interactivity:{ detect_on:"canvas",events:{ onhover:{ enable:true,mode:"grab" } } },  
+    retina_detect:true  
+  });  
+
+  loadServerInfo();  
+  probeApk();  
+  </script>  
+</body>  
+</html>
