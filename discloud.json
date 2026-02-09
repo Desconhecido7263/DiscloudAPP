@@ -1,6 +1,6 @@
 {
   "maintenance": false,
-  "offline": true,
+  "offline": false,
   "version": "1.10",
   "last_update": "19 de outubro de 2025",
   "maintenance_msg": "⚠️ O aplicativo está em manutenção.\nPor favor, volte mais tarde.",
